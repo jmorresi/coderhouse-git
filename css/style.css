@@ -38,25 +38,11 @@ h1 {
   padding: 10px;
 }
 
-.titulo {
-  margin-top: 1px;
-}
+
 
 h2 {
   color: rgba(255, 255, 255, 0.767);
   text-decoration: underline;
-}
-
-p .text-center{
-  display: flex;
-  margin: 10%;
-}
-
-h2 .text-center {
-  margin-top: 25px;
-}
-div .col {
-  margin-top: 75px;
 }
 
 p {
@@ -67,4 +53,30 @@ p {
   color: rgba(255, 255, 255, 0.767);
 } 
 
+p .text-center{
+  display: flex;
+  text-align: center;
+  margin: 10%;
+}
+
+h2 .text-center {
+  margin-top: 25px;
+}
+
+div .col {
+  margin-top: 75px;
+}
+
+
+
+p::first-letter {
+  font-size: 1.5rem;
+}
+
+div .carousel {
+  height: auto;
+  width: auto;
+  padding: 3rem;
+  margin-top: 25%;
+}
 
