@@ -11,6 +11,9 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+}
 .logo {
   max-width: 300px;
 }
@@ -28,6 +31,7 @@ ul {
 }
 
 h1 {
+  margin-bottom: 30px;
   font-family: "timess";
   text-decoration: underline;
   color: rgba(255, 255, 255, 0.774);
@@ -39,20 +43,28 @@ h1 {
 }
 
 h2 {
-  padding: 20px;
-  margin-left: 60px;
   color: rgba(255, 255, 255, 0.767);
   text-decoration: underline;
 }
 
-p {
-  padding: 80px;
-  margin-left: 70px;
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.767);
+p .text-center{
+  display: flex;
+  margin: 10%;
 }
 
-.carousel-inner {
-  width: 600px;
-  height: 700px;
+h2 .text-center {
+  margin-top: 25px;
 }
+div .col {
+  margin-top: 75px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: rgba(255, 255, 255, 0.767);
+} 
+
+
