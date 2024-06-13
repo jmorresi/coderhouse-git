@@ -38,8 +38,6 @@ h1 {
   padding: 10px;
 }
 
-
-
 h2 {
   color: rgba(255, 255, 255, 0.767);
   text-decoration: underline;
@@ -66,10 +64,6 @@ h2 .text-center {
 .historia {
   margin-bottom: 80px;
 }
-
-
-
-
 
 p::first-letter {
   font-size: 1.5rem;
